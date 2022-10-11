@@ -19,7 +19,7 @@ header img{
     width: 100%;
     background-color: #F5F5F5;
     padding-top: 2rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
 #contenitore{
@@ -37,15 +37,26 @@ header img{
     margin-left: 1.5rem;
 }
 
-.button{
-    border-color: lightgray;
+.button,.unselected,.selected{
+    font-size: 0.8rem;
     border-radius: 5px;
     width: 4rem;
     margin-left: 0.5rem;
+    padding: 0.4rem;
+    border-style: solid;
+}
+
+.unselected{
+    border-color: rgb(57, 154, 228);
     background-color: rgb(57, 154, 228);
     color: white;
-    padding: 0.4rem;
 }
+
+.selected{
+    border-color: lightgray;
+    color: lightgray;
+}
+
 hr{
     margin-top: 0.8rem;
     border-top: 1px solid #F5F5F5;
