@@ -16,18 +16,19 @@ header img{
 }
 
 #sfondo{
-    height: 50rem;
     width: 100%;
     background-color: #F5F5F5;
     padding-top: 2rem;
+    padding-bottom: 10rem;
 }
 
 #contenitore{
-    height: 50rem;
     width: 50rem;
     background-color: white;
     margin: 0 auto;
     padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 6px;
 }
 
 #buttons-basket{
@@ -53,9 +54,13 @@ hr{
     margin-top: 2rem;
 }
 
-div p{
+.task{
     font-weight: bold;
     font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.task-line{
     padding-bottom: 1rem;
 }
 
@@ -67,10 +72,64 @@ div p{
     font-weight: bold;
 }
 
-.indicator{
+.checkmark-red{
+    color: red;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 0.1rem;
+    font-weight: bold;
+}
+
+.indicator-blue{
     background-color: rgb(57, 154, 228);
     color: white;
     border-radius: 30px;
     padding: 0.5rem;
     font-size: 0.8rem;
 }
+
+.indicator-violet{
+    background-color: rgb(137, 87, 221);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.indicator-green{
+    background-color: rgb(7, 130, 74);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.indicator-orange{
+    background-color: rgb(220, 131, 38);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.indicator-pink{
+    background-color: rgb(204, 73, 144);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.indicator-lightgreen{
+    background-color: rgb(163, 193, 29);
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
