@@ -31,6 +31,8 @@ header img{
     border-radius: 6px;
 }
 
+/* parte sui bottoni */
+
 #buttons-basket{
     margin-left: 1.5rem;
 }
@@ -49,6 +51,8 @@ hr{
     border-top: 1px solid #F5F5F5;
 }
 
+/* parte sui task */
+
 #contenitore section{
     margin-left: 2rem;
     margin-top: 2rem;
@@ -64,72 +68,54 @@ hr{
     padding-bottom: 1rem;
 }
 
-.checkmark{
-    color: rgb(71, 176, 146);
+/* per fare i checkmarks */
+
+.checkmark,.checkmark-red,.checkmark-green{
     border-style: solid;
     border-radius: 100%;
     padding: 0.1rem;
     font-weight: bold;
+    font-size: 0.8rem;
 }
 
 .checkmark-red{
     color: red;
-    border-style: solid;
-    border-radius: 100%;
-    padding: 0.1rem;
-    font-weight: bold;
+    padding: 0.2rem;
 }
 
-.indicator-blue{
+.checkmark-green{
+    color: rgb(71, 176, 146);
+}
+
+/* per fare gli indicatori */
+
+.indicator,.blue,.violet,.green,.orange,.pink,.lightgreen{
+    color: white;
+    border-radius: 30px;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+}
+
+.blue{
     background-color: rgb(57, 154, 228);
-    color: white;
-    border-radius: 30px;
-    padding: 0.5rem;
-    font-size: 0.8rem;
 }
 
-.indicator-violet{
+.violet{
     background-color: rgb(137, 87, 221);
-    color: white;
-    border-radius: 30px;
-    padding: 0.5rem;
-    font-size: 0.8rem;
 }
 
-.indicator-green{
+.green{
     background-color: rgb(7, 130, 74);
-    color: white;
-    border-radius: 30px;
-    padding: 0.5rem;
-    font-size: 0.8rem;
 }
 
-.indicator-orange{
+.orange{
     background-color: rgb(220, 131, 38);
-    color: white;
-    border-radius: 30px;
-    padding: 0.5rem;
-    font-size: 0.8rem;
 }
 
-.indicator-pink{
+.pink{
     background-color: rgb(204, 73, 144);
-    color: white;
-    border-radius: 30px;
-    padding: 0.5rem;
-    font-size: 0.8rem;
 }
 
-.indicator-lightgreen{
+.lightgreen{
     background-color: rgb(163, 193, 29);
-    color: white;
-    border-radius: 30px;
-    padding: 0.5rem;
-    font-size: 0.8rem;
 }
-
-
-
-
-
-
