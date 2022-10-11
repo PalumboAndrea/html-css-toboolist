@@ -10,9 +10,15 @@ header{
 }
 
 header img{
-    height: 4rem;
-    padding-left: 1.5rem;
-    padding-top: 1rem;
+    height: 5rem;
+    padding: 0.3rem 0.3rem 0.3rem 1rem;
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: 1.5rem;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 #sfondo{
@@ -23,7 +29,7 @@ header img{
 }
 
 #contenitore{
-    width: 50rem;
+    width: 60rem;
     background-color: white;
     margin: 0 auto;
     padding-top: 1rem;
